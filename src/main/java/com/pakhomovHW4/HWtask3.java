@@ -1,6 +1,4 @@
 package com.pakhomovHW4;
-
-
 import java.util.Arrays;
 
 public class HWtask3 {
