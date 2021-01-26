@@ -74,7 +74,7 @@ public class Order2 {
     @Override
     public int hashCode() {
         int result;
-        long temp;
+        long  temp;
         temp = Double.doubleToLongBits(id);
         result = (int) (temp ^ (temp >>> 32));
         result = 31 * result + (date != null ? date.hashCode() : 0);
