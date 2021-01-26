@@ -1,5 +1,4 @@
 package com.pakhomovHW1;
-
 import java.util.Scanner;
 
 public class Animals {

@@ -1,5 +1,4 @@
 package com.pakhomovHW1;
-
 public class replacement {
     public static void main(String[] args) {
 

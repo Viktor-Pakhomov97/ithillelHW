@@ -1,5 +1,4 @@
 package com.pakhomovHW1;
-
 public class swaptoo {
     public static void main(String[] args) {
         int a, b;
