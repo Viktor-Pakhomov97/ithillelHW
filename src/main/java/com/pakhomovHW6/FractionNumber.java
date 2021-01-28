@@ -6,9 +6,13 @@ public class FractionNumber implements Fraction {
     private int numerator;
     private int denominator;
 
-    public FractionNumber(int a, int b) throws IllegalArgumentException {
-        this.numerator = a;
-        this.denominator = b;
+    public FractionNumber(int numerator, int denominator) throws ArithmeticException {
+        if (denominator == 0) {
+            throw new IllegalArgumentException("знаменатель в классе Fraction не может быть 0");
+        }
+
+        this.numerator = numerator;
+        this.denominator = denominator;
     }
 
     public int getNumerator() {
@@ -59,6 +63,10 @@ public class FractionNumber implements Fraction {
         if (denominator % numerator == 0) {
             denominator = denominator / numerator;
             numerator = numerator / numerator;
+        }
+        if(denominator < 0) {
+            numerator *= -1;
+            denominator *= -1;
         }
         return new FractionNumber(numerator, denominator);
     }
