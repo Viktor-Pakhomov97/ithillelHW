@@ -6,7 +6,6 @@ public enum Genre {
     Genre(String genre) {
         this.genre = genre;
     }
-
     public String getGenre() {
         return genre;
     }
