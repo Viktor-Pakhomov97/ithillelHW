@@ -7,12 +7,14 @@ public class Order1 {
     private Date date;
     private double customer;
     private String adress;
+
     public Order1(long id, long customer, String adress, Date date) {
         this.id = id;
         this.date = new Date(date.getTime());
         this.customer = customer;
         this.adress = adress;
     }
+
     public double getId() {
         return id;
     }

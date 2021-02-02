@@ -8,7 +8,6 @@ public class swap {
         int a, b, c;
         a = scanner.nextInt();
         b = scanner.nextInt();
-        c = 1;
         c = a;
         a = b;
         b = c;
