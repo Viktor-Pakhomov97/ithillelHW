@@ -1,7 +1,7 @@
 package HW8;
 
 import java.util.Date;
-public class Author {
+final class Author {
     private final String firstName;
     private final String lastName;
     private final Date dateOfBirth;
