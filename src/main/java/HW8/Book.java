@@ -1,7 +1,6 @@
 package HW8;
 
 import java.util.Date;
-
 public class Book {
     private final Author author;
     private final Date issueDate;

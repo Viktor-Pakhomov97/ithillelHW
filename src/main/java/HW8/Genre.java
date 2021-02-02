@@ -1,7 +1,6 @@
 package HW8;
-
-public enum  Genre {
-    FAIRY_TALE("Fairy tale"),FANTASY("fantasy");
+public enum Genre {
+    FAIRY_TALE("Fairy tale"), FANTASY("fantasy");
     String genre;
 
     Genre(String genre) {
