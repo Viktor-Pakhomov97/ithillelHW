@@ -1,5 +1,4 @@
 package com.pakhomovHW3;
-
 import java.util.Scanner;
 
 public class HWtask4 {
