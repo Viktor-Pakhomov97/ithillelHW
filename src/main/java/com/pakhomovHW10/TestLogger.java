@@ -6,7 +6,7 @@ public class TestLogger {
     public static void main(String[] args)throws IOException {
 
 
-        LoggerHw logger = new ConsoleLogger();
+        Logger logger = new ConsoleLogger();
         logger.log("Error");
         logger.log("Error", LogLevel.INFO);
 

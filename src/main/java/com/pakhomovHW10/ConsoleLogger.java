@@ -1,7 +1,7 @@
 package com.pakhomovHW10;
 
 import java.io.IOException;
-public class ConsoleLogger extends LoggerHw {
+public class ConsoleLogger extends Logger {
     @Override
     public void log(String messege) {
         System.out.println(getDate() + " " + messege);

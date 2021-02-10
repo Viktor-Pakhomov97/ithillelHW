@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class LoggerHw {
+public class Logger {
     public void log(String messege) {
     }
 
